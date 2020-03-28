@@ -1,0 +1,1 @@
+reg add HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v VaultNotifier /d "main.exe"
