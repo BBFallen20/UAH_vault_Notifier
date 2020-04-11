@@ -40,7 +40,7 @@ class Vault:
     
     
     def timer(self):
-        schedule.every(4).hours.do(self.parse)
+        schedule.every(1).minutes.do(self.parse)
         while True:
             schedule.run_pending()
             time.sleep(1)
